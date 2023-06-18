@@ -1,0 +1,58 @@
+.book-list {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap row;
+  margin: 20px;
+}
+
+.BookDiv {
+  display: flex;
+  border: 1px solid rgb(70, 68, 68);
+  margin: 15px auto;
+  padding: 0;
+  width: 695px;
+  height: 500px;
+}
+
+.img-box {
+  margin: 0;
+  padding: 0;
+}
+
+.img-box img {
+  width: 325px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  width: 75%;
+  margin: 30px auto auto;
+}
+
+.char-list {
+  display: flex;
+  height: 85px;
+  flex-direction: column;
+  flex-flow: wrap column;
+  text-align: left;
+}
+
+.btn {
+  width: 95%;
+  margin: auto auto 10px;
+  border-radius: 5px;
+  bottom: 0;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
